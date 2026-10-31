@@ -1,0 +1,31 @@
+import { sources } from "./sources";
+import type { DocumentRecord } from "./types";
+
+export const documents: DocumentRecord[] = [
+  { id: "passport-or-entry-permit", sourceUrl: sources.gov24Extension },
+  { id: "passport", sourceUrl: sources.gov24Registration },
+  { id: "passport-or-arc", sourceUrl: sources.gov24Address },
+  { id: "arc", sourceUrl: sources.gov24Extension },
+  { id: "arc-unless-lost", sourceUrl: sources.gov24Reissue },
+  { id: "residence-proof", sourceUrl: sources.annex52 },
+  { id: "address-proof", sourceUrl: sources.addressRule },
+  { id: "registration-photo", sourceUrl: sources.annex52 },
+  { id: "reissue-photo", sourceUrl: sources.gov24Reissue },
+  { id: "d2-enrollment", sourceUrl: sources.annex52 },
+  { id: "d2-funds", sourceUrl: sources.annex52 },
+  { id: "d2-research", sourceUrl: sources.annex52 },
+  { id: "d2-registration-enrollment", sourceUrl: sources.annex52 },
+  { id: "d2-health", sourceUrl: sources.annex52 },
+  { id: "e7-contract", sourceUrl: sources.annex52 },
+  { id: "e7-business-registration", sourceUrl: sources.annex52 },
+  { id: "e7-payment-history", sourceUrl: sources.annex52 },
+  { id: "e7-guarantee-if-restricted", sourceUrl: sources.annex52 },
+  { id: "e7-recommendation-or-need", sourceUrl: sources.annex52 },
+  { id: "e7-current-workplace-consent", sourceUrl: sources.annex52 },
+  { id: "f6-spouse-marriage", sourceUrl: sources.annex52 },
+  { id: "f6-spouse-registration", sourceUrl: sources.annex52 },
+  { id: "f6-child-family", sourceUrl: sources.annex52 },
+  { id: "f6-child-care", sourceUrl: sources.annex52 },
+  { id: "f6-marriage-ended", sourceUrl: sources.annex52 },
+  { id: "eps-passport-if-needed", sourceUrl: sources.gov24EpsWorkplace },
+];
